@@ -1,0 +1,141 @@
+*{
+    margin:0px;
+}
+body{
+    background-color:#50C9CE;
+}
+.header{
+    background-color:#2e382e;
+    width:100%;
+    height:50px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+#title{
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+    margin-left:10px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;    
+}
+.moves{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    margin-top:40px;
+}
+.rock{
+    height:200px;
+    width:150px;
+    background-color:#b5f8fe;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:48%;
+    font-size:4rem;
+    color:black;
+    border:3px solid white;
+}
+.paper{
+    height:200px;
+    width:150px;
+    background-color:#b5f8fe;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:48%;
+    font-size:4rem;
+    color:black;
+    border:3px solid white;
+}
+.scissors{
+    height:200px;
+    width:150px;
+    background-color:#b5f8fe;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:48%;
+    font-size:4rem;
+    color:black;
+    border:3px solid white;
+}
+.rock:hover{
+    border:2px solid black;
+    background-color:#7be9ed;
+    cursor:pointer;
+    color:white;
+}
+.paper:hover{
+    border:2px solid black;
+    background-color:#7be9ed;
+    cursor:pointer;
+    color:white;
+}.scissors:hover{
+    border:2px solid black;
+    background-color:#7be9ed;
+    cursor:pointer;
+    color:white;
+}
+
+.msgContainer{
+    margin-top:40px;
+}
+.msg{
+    font-size:2.5rem;
+    color:white;
+    text-align:center;
+}
+
+.scoreBoard{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:50px;
+}
+.score{
+    height:100px;
+    width:300px;
+    background-color:#72a1e5;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly; 
+    border:2px solid white;
+    border-radius:20px;
+    text-align:center;
+}
+#player-score,
+#computer-score{
+    color:black;
+    font-size:3rem;
+}
+.scoreText{
+    font-size:1.5rem;
+    color:black;
+}
+
+.newGame{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:30px;
+}
+.reset{
+    display: flex;
+    height:100px;
+    width:100px;
+    align-items: center;
+    justify-content: center;
+    font-size:4rem;
+    background-color: #b5f8fe;
+    border-radius:50%;
+    border:2px solid white;
+}
+.reset:hover{
+    border:2px solid black;
+    background-color:#7be9ed;
+    cursor:pointer;
+    color:white;
+}
